@@ -1,0 +1,23 @@
+[package]
+name = "plugin_template"
+version = "0.1.0"
+edition = "2021"
+description = "A simple RTop plugin template."
+repository = "https://github.com/RtopRS/PluginTemplate"
+readme = "README.md"
+license = "MPL-2.0"
+
+[lib]
+name = "plugin_template"
+crate-type = ["dylib"]
+
+[profile.release]
+codegen-units = 1
+panic = "abort"
+debug = false
+opt-level = 3
+strip = true
+lto = true
+
+[dependencies]
+rtop_dev = "^0.2.0"
