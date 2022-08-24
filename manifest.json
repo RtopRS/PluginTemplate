@@ -6,5 +6,8 @@
   "author": "RTop",
   "license": "MPL-2.0",
   "os": [],
-  "arch": []
+  "arch": [],
+  "provided_widgets": [
+    "template"
+  ]
 }
