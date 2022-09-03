@@ -5,10 +5,5 @@
   "url": "https://github.com/RtopRS/PluginTemplate",
   "version": "0.1.0",
   "author": "Rtop Development Team",
-  "license": "MPL-2.0",
-  "os": [],
-  "arch": [],
-  "provided_widgets": [
-    "template"
-  ]
+  "license": "MPL-2.0"
 }
